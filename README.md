@@ -16,7 +16,7 @@ or
 conda install -c conda-forge cookiecutter
 ```
 
-## Crear un nuevo proyecto
+## Create a new project
 
 
 In the directory where you want to save you new project:
@@ -26,7 +26,7 @@ cookiecutter https://github.com/SanTaroZ/cookiecutter_template
 ```
 
 
-## Estructura de directorios y archivos resultantes
+## Directory structure
 
     {{ cookiecutter.project_slug }}
         ├── data
@@ -45,4 +45,6 @@ cookiecutter https://github.com/SanTaroZ/cookiecutter_template
 
 ---
 
-## THIS TEMPLATE WAS CREATED THANKS TO PLATZI COURSE "ENTORNO AVANZADO DS"
+
+
+THIS TEMPLATE WAS CREATED THANKS TO PLATZI COURSE "ENTORNO AVANZADO DS"
