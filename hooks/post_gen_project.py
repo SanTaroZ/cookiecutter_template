@@ -11,4 +11,4 @@ subprocess.call(['git', 'init'])
 subprocess.call(['git', 'add', '*'])
 subprocess.call(['git', 'commit', '-m', 'Initial commit'])
 
-print(f"{MESSAGE_COLOR}git init, git add * & git commit -m Initial has been executed{RESET_ALL}")
+print(f"{MESSAGE_COLOR} git init, git add * & git commit -m Initial has been executed{RESET_ALL}")
