@@ -7,7 +7,7 @@ conda config --add channels conda-forge
 ## Installing cookiecutter in a virtual environment using anaconda
 
 ``` bash
-conda create --name production_analysis cookiecutter=1.7.3
+conda create --name env_name cookiecutter=1.7.3
 ```
 
 ## Normal installation cookiecutter
