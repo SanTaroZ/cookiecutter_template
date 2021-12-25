@@ -1,10 +1,16 @@
+## Before installing cookiecutter using anaconda
 
-## Requirements
+``` bash
+conda config --add channels conda-forge
+```
 
-- [Anaconda](https://www.anaconda.com/download/) >= 4.x
-- [git](https://git-scm.com/) >= 2.x
-- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0:
-    This can be installed with `pip` o `conda` 
+## Install cookiecutter in a virtual envioroment using anaconda
+
+``` bash
+conda create --name production_analysis cookiecutter=1.7.3
+```
+
+## Normal installation cookiecutter
 
 ``` bash
 pip install cookiecutter
@@ -35,11 +41,11 @@ cookiecutter https://github.com/SanTaroZ/cookiecutter_template
         │
         ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
         │                         the creator's initials, and a short `-` delimited description, e.g.
-        │                         `1.0-jvelezmagic-initial-data-exploration`.
+        │                         `1.0-ecardenas-data-exploration`.
         │
         ├── .gitignore         <- Files to ignore by `git`.
         │
-        ├── environment.yml    <- The requirements file for reproducing the analysis environment.
+        ├── environment.yml    <- The requirements file for reproducing the environment.
         │
         └── README.md          <- The top-level README for developers using this project.
 
