@@ -54,3 +54,5 @@ cookiecutter https://github.com/SanTaroZ/cookiecutter_template
 
 
 THIS TEMPLATE WAS CREATED THANKS TO PLATZI COURSE "ENTORNO AVANZADO DS"
+
+This template serves as initial point for my data projects so i do not have to create a scenario from scratch every time i want to begin a project.

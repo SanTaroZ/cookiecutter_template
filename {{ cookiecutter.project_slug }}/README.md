@@ -40,4 +40,3 @@ activate {{ cookiecutter.project_slug }}
 
 ---
 
-This template serves as initial point for my data projects so i do not have to create a scenario from scratch every time i want to begin a project.
