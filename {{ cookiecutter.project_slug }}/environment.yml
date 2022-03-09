@@ -8,6 +8,15 @@ dependencies:
   {% if cookiecutter.project_packages == "All" -%}
   - jupyter
   - jupyterlab
+  - pandas
+  - matplotlib
+  - seaborn
+  - pep8
+  - openpyxl
+  - jmcmurray os
+  - scipy
+  - joblib
+  - scikit-learn
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
