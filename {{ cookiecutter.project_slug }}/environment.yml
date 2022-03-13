@@ -1,11 +1,11 @@
 # conda env create --file environment.yml
-name: {{ cookiecutter.project_slug }}
+name: Project
 channels:
   - anaconda
   - conda-forge
   - defaults
 dependencies:
-  {% if cookiecutter.project_packages == "All" -%}
+  - pip
   - jupyter
   - jupyterlab
   - pandas
@@ -13,17 +13,9 @@ dependencies:
   - seaborn
   - pep8
   - openpyxl
-  - jmcmurray os
   - scipy
   - joblib
   - scikit-learn
-  {% endif -%}
-  - pip
-  {% if cookiecutter.project_packages == "All" -%}
-  - pyprojroot
-  {% endif -%}
-  - python={{ cookiecutter.python_version }}
-  - pip:
-    {% if cookiecutter.project_packages == "All" -%}
-    - pyhere
-    {% endif -%}
+
+  
+  

@@ -4,7 +4,5 @@
     "project_author_name": "Your name (or your organization/company/team)",
     "project_author_email": "Yout email (or your organization/company/team)",
     "project_description": "A short description of the project.",
-    "project_packages": ["All", "Minimal"],
-    "python_version": "3.10",
-    "project_version": "0.1"
+    "python_version": "3.10"
 }
