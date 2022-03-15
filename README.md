@@ -30,18 +30,16 @@ cookiecutter https://github.com/SanTaroZ/cookiecutter_template
 
     {{ cookiecutter.project_slug }}
         ├── data
-        │   ├── processed      <- The final, canonical data sets for modeling.
-        │   └── raw            <- The original, immutable data dump.
+        │   ├── processed      <- The final data sets for modeling & results
+        │   └── raw            <- The original data.
         │
-        ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-        │                         the creator's initials, and a short `-` delimited description, e.g.
-        │                         `1.0-ecardenas-data-exploration`.
+        ├── notebooks          <- Jupyter notebooks.
         │
         ├── .gitignore         <- Files to ignore by `git`.
         │
-        ├── environment.yml    <- The requirements file for reproducing the environment.
+        ├── requirements.txt    <- The requirements file for reproducing the environment.
         │
-        └── README.md          <- The top-level README for developers using this project.
+        └── README.md          <- README file for developers using this project.
 
 ---
 
