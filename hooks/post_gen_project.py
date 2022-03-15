@@ -15,4 +15,12 @@ print(f"{MESSAGE_COLOR}Installing libraries...")
 #subprocess.call(['dir'])
 #subprocess.call(['pip', 'install','-r','requirements.txt'])
 
+paths = []
+for (dirpath, dirnames, filenames) in os.walk(os.getcwd()):
+        paths.append(dirpath)
+        
+os.chdir(paths[1])
+print(os.getcwd())
+subprocess.call(['pip', 'install','-r','requirements.txt'])
+
 print(f"{MESSAGE_COLOR}Done!!")

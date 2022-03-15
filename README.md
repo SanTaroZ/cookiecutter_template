@@ -1,9 +1,3 @@
-## Before installing cookiecutter using anaconda
-
-``` bash
-conda config --add channels conda-forge
-```
-
 ## Installing cookiecutter in a virtual environment using anaconda
 
 ``` bash
@@ -19,7 +13,7 @@ pip install cookiecutter
 or
 
 ``` bash
-conda install -c conda-forge cookiecutter
+conda install -c conda-forge cookiecutter=1.7.3
 ```
 
 ## Create a new project
@@ -50,6 +44,16 @@ cookiecutter https://github.com/SanTaroZ/cookiecutter_template
         └── README.md          <- The top-level README for developers using this project.
 
 ---
+
+## NOTES
+
+To open jupyter notebook write in command line: jupyter notebook
+
+If you want to create an virutal environment through a file named environment.yml, write in command line: conda env create --file environment.yml
+
+If you want to pass all the libraries into a file, write in command line : conda env export --from-history --file environment.yml
+
+If you want to install libraries through a file named requirements.txt, write in command line: pip install -r requirements.txt
 
 
 
