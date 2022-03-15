@@ -18,8 +18,9 @@ print(f"{MESSAGE_COLOR}Installing libraries...")
 paths = []
 for (dirpath, dirnames, filenames) in os.walk(os.getcwd()):
         paths.append(dirpath)
-        
-os.chdir(paths[1])
+
+print(os.getcwd())   
+os.chdir(paths[0])
 print(os.getcwd())
 subprocess.call(['pip', 'install','-r','requirements.txt'])
 
