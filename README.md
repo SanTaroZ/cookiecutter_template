@@ -7,7 +7,7 @@ conda create --name env_name python=py_version cookiecutter=1.7.3
 ## Normal installation cookiecutter
 
 ``` bash
-pip install cookiecutter
+pip install cookiecutter=1.7.3
 ```
 
 or
