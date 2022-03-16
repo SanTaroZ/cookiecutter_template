@@ -1,7 +1,7 @@
 ## Installing cookiecutter in a virtual environment using anaconda
 
 ``` bash
-conda create --name testo python=py_version cookiecutter=1.7.3
+conda create --name env_name python=py_version cookiecutter=1.7.3
 ```
 
 ## Normal installation cookiecutter
