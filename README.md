@@ -35,7 +35,7 @@ cookiecutter https://github.com/SanTaroZ/cookiecutter_template
         │
         ├── notebooks          <- Jupyter notebooks.
         │
-        ├── .gitignore         <- Files to ignore by `git`.
+        ├── .gitignore         <- Files to ignore by git.
         │
         ├── requirements.txt    <- The requirements file for reproducing the environment.
         │
